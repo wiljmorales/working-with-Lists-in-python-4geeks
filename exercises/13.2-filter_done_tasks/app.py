@@ -12,4 +12,4 @@ tasks = [
 
 
 #Your code go here:
-
+print(list(filter(lambda element: element["done"], tasks)))

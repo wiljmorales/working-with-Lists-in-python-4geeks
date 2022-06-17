@@ -7,3 +7,5 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+
+print(list(filter(lambda element: element.find("am") != -1, names)))
